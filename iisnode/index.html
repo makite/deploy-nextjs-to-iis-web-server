@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>iisnode logs</title>
+    <style type="text/css">
+        body
+        {
+            font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+        }
+        table
+        {
+            border-collapse: collapse;
+        }
+        td, th
+        {
+            border: 1px solid lightgray;
+            padding: 3px 7px 2px 7px;
+        }
+        th
+        {
+            text-align: left;
+            padding-top: 5px;
+            padding-bottom: 4px;
+            background-color: Gray;
+            color: #ffffff;
+        }
+        td.stderr
+        {
+            color: Red;
+        }
+    </style>
+</head>
+<body>
+    <table id="logFilesTable">
+        <tr>
+            <th>
+                Computer name
+            </th>
+            <th>
+                PID
+            </th>
+            <th>
+                Type
+            </th>
+            <th>
+                Created
+            </th>
+            <th>
+                Link
+            </th>
+        </tr>
+    </table>
+    <p id="lastUpdated"></p>
+    <script type="text/javascript">
+
+        // this is replaced with actual data at runtime by code in interceptor.js
+        var logFiles = [{"file":"MEKU-12092-stderr-1740654399763.txt","computername":"MEKU","pid":12092,"type":"stderr","created":1740654399763},{"file":"MEKU-12092-stdout-1740654399761.txt","computername":"MEKU","pid":12092,"type":"stdout","created":1740654399761},{"file":"MEKU-14368-stderr-1740655315964.txt","computername":"MEKU","pid":14368,"type":"stderr","created":1740655315964},{"file":"MEKU-14412-stderr-1740644513560.txt","computername":"MEKU","pid":14412,"type":"stderr","created":1740644513560},{"file":"MEKU-14412-stdout-1740644513559.txt","computername":"MEKU","pid":14412,"type":"stdout","created":1740644513559},{"file":"MEKU-19884-stderr-1740656002400.txt","computername":"MEKU","pid":19884,"type":"stderr","created":1740656002400},{"file":"MEKU-19884-stdout-1740656002397.txt","computername":"MEKU","pid":19884,"type":"stdout","created":1740656002397},{"file":"MEKU-21940-stderr-1740644426343.txt","computername":"MEKU","pid":21940,"type":"stderr","created":1740644426343},{"file":"MEKU-21940-stdout-1740644426341.txt","computername":"MEKU","pid":21940,"type":"stdout","created":1740644426341},{"file":"MEKU-2204-stderr-1740645690154.txt","computername":"MEKU","pid":2204,"type":"stderr","created":1740645690154},{"file":"MEKU-2204-stdout-1740645690153.txt","computername":"MEKU","pid":2204,"type":"stdout","created":1740645690153},{"file":"MEKU-2272-stderr-1740645798175.txt","computername":"MEKU","pid":2272,"type":"stderr","created":1740645798175},{"file":"MEKU-25356-stderr-1740644467817.txt","computername":"MEKU","pid":25356,"type":"stderr","created":1740644467817},{"file":"MEKU-25356-stdout-1740644467815.txt","computername":"MEKU","pid":25356,"type":"stdout","created":1740644467815},{"file":"MEKU-27192-stderr-1740655346504.txt","computername":"MEKU","pid":27192,"type":"stderr","created":1740655346504},{"file":"MEKU-27192-stdout-1740655346501.txt","computername":"MEKU","pid":27192,"type":"stdout","created":1740655346501},{"file":"MEKU-28208-stderr-1740656142779.txt","computername":"MEKU","pid":28208,"type":"stderr","created":1740656142779},{"file":"MEKU-28208-stdout-1740656142775.txt","computername":"MEKU","pid":28208,"type":"stdout","created":1740656142775},{"file":"MEKU-6964-stdout-1740642206410.txt","computername":"MEKU","pid":6964,"type":"stdout","created":1740642206410},{"file":"MEKU-9932-stderr-1740645803788.txt","computername":"MEKU","pid":9932,"type":"stderr","created":1740645803788},{"file":"MEKU-9932-stdout-1740645803785.txt","computername":"MEKU","pid":9932,"type":"stdout","created":1740645803785},{"file":"MEKU-9932-stdout-1740646191071.txt","computername":"MEKU","pid":9932,"type":"stdout","created":1740646191071}];
+        var lastUpdated = 1740656144344;
+        var date = new Date();
+
+        date.setTime(lastUpdated);
+        document.getElementById('lastUpdated').innerHTML = 'Index was last updated ' + date;
+
+        logFiles.sort(function (a, b) {
+            return b.created - a.created;
+        });
+
+        var logFilesTable = document.getElementById("logFilesTable");
+        for (var i = 0; i < logFiles.length; i++) {
+            var logFile = logFiles[i];
+            date.setTime(logFile.created);
+            var row = logFilesTable.insertRow(-1);
+            var computerNameCell = row.insertCell(0);
+            var pidCell = row.insertCell(1);
+            var typeCell = row.insertCell(2);
+            var dateCell = row.insertCell(3);
+            var logCell = row.insertCell(4);
+            computerNameCell.innerHTML = logFile.computername;
+            pidCell.innerHTML = logFile.pid.toString();
+            typeCell.innerHTML = logFile.type;
+            typeCell.setAttribute('class', logFile.type);
+            dateCell.innerHTML = date.toString();
+            logCell.innerHTML = '<a href="' + logFile.file + '">log</a>';
+        };
+
+    </script>
+</body>
+</html>

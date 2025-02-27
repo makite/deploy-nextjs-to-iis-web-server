@@ -1,0 +1,113 @@
+(node:12092) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ⨯ Error: ENOENT: no such file or directory, open 'D:\Meku\NextJs\budegte-iis\.next\server\app\_not-found\page.js'
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Meku\\NextJs\\budegte-iis\\.next\\server\\app\\_not-found\\page.js'
+}
+Error: ENOENT: no such file or directory, open 'D:\Meku\NextJs\budegte-iis\.next\fallback-build-manifest.json'
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Meku\\NextJs\\budegte-iis\\.next\\fallback-build-manifest.json'
+}
+ ⨯ Error: Cannot find module 'D:\Meku\NextJs\budegte-iis\.next\server\pages\_document.js'
+Require stack:
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\require.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\load-components.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\utils.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\swc\options.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\swc\index.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\config.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\next.js
+- D:\Meku\NextJs\budegte-iis\server.js
+- C:\Program Files\iisnode\interceptor.js
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+Error: ENOENT: no such file or directory, open 'D:\Meku\NextJs\budegte-iis\.next\fallback-build-manifest.json'
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Meku\\NextJs\\budegte-iis\\.next\\fallback-build-manifest.json'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'D:\Meku\NextJs\budegte-iis\.next\server\app\_not-found\page.js'
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Meku\\NextJs\\budegte-iis\\.next\\server\\app\\_not-found\\page.js'
+}
+Error: ENOENT: no such file or directory, open 'D:\Meku\NextJs\budegte-iis\.next\fallback-build-manifest.json'
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Meku\\NextJs\\budegte-iis\\.next\\fallback-build-manifest.json'
+}
+ ⨯ Error: Cannot find module 'D:\Meku\NextJs\budegte-iis\.next\server\pages\_document.js'
+Require stack:
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\require.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\load-components.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\utils.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\swc\options.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\swc\index.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\config.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\next.js
+- D:\Meku\NextJs\budegte-iis\server.js
+- C:\Program Files\iisnode\interceptor.js
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+Error: ENOENT: no such file or directory, open 'D:\Meku\NextJs\budegte-iis\.next\fallback-build-manifest.json'
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Meku\\NextJs\\budegte-iis\\.next\\fallback-build-manifest.json'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'D:\Meku\NextJs\budegte-iis\.next\server\app\_not-found\page.js'
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Meku\\NextJs\\budegte-iis\\.next\\server\\app\\_not-found\\page.js'
+}
+Error: ENOENT: no such file or directory, open 'D:\Meku\NextJs\budegte-iis\.next\fallback-build-manifest.json'
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Meku\\NextJs\\budegte-iis\\.next\\fallback-build-manifest.json'
+}
+ ⨯ Error: Cannot find module 'D:\Meku\NextJs\budegte-iis\.next\server\pages\_document.js'
+Require stack:
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\require.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\load-components.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\utils.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\swc\options.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\swc\index.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\config.js
+- D:\Meku\NextJs\budegte-iis\node_modules\next\dist\server\next.js
+- D:\Meku\NextJs\budegte-iis\server.js
+- C:\Program Files\iisnode\interceptor.js
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+Error: ENOENT: no such file or directory, open 'D:\Meku\NextJs\budegte-iis\.next\fallback-build-manifest.json'
+    at async Server.<anonymous> (D:\Meku\NextJs\budegte-iis\server.js:25:9) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\Meku\\NextJs\\budegte-iis\\.next\\fallback-build-manifest.json'
+}

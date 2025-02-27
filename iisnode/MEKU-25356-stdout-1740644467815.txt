@@ -1,0 +1,64 @@
+> Ready on http://localhost:\\.\pipe\bb9c5910-3d3f-451d-a023-fac9c5711ac9
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 5.8s (693 modules)
+ GET /server.js 404 in 7248ms
+ GET /server.js 404 in 7354ms
+ GET /server.js 404 in 7363ms
+ ✓ Compiled in 2.3s (693 modules)
+ GET /server.js 404 in 1262ms
+ GET /server.js 404 in 1234ms
+ GET /server.js 404 in 1242ms
+ ✓ Compiled in 710ms (350 modules)
+ ✓ Compiled in 971ms (693 modules)
+ GET /server.js 404 in 1108ms
+ ✓ Compiled in 339ms (350 modules)
+ ✓ Compiled in 319ms (350 modules)
+ ✓ Compiled in 449ms (350 modules)
+ ✓ Compiled in 330ms (350 modules)
+ ✓ Compiled in 303ms (350 modules)
+ ✓ Compiled in 252ms (350 modules)
+ ✓ Compiled in 285ms (350 modules)
+ ✓ Compiled in 253ms (350 modules)
+ ✓ Compiled in 263ms (350 modules)
+ ✓ Compiled in 605ms (679 modules)
+ GET /server.js 404 in 811ms
+ ✓ Compiled in 369ms (350 modules)
+ ✓ Compiled in 243ms (350 modules)
+ ✓ Compiled in 267ms (350 modules)
+ ✓ Compiled in 222ms (350 modules)
+ ✓ Compiled in 200ms (350 modules)
+ ✓ Compiled in 289ms (350 modules)
+ ✓ Compiled in 263ms (350 modules)
+ ✓ Compiled in 329ms (350 modules)
+ ✓ Compiled in 309ms (350 modules)
+ ✓ Compiled in 314ms (350 modules)
+ ✓ Compiled in 221ms (350 modules)
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1320ms (709 modules)
+ GET /favicon.ico 200 in 1666ms
+ ✓ Compiled in 544ms (350 modules)
+ ✓ Compiled in 779ms (350 modules)
+ ✓ Compiled in 258ms (350 modules)
+ ✓ Compiled in 241ms (350 modules)
+ ✓ Compiled in 366ms (350 modules)
+ ✓ Compiled in 231ms (350 modules)
+ ✓ Compiled in 210ms (350 modules)
+ ✓ Compiled in 227ms (350 modules)
+ ✓ Compiled in 227ms (350 modules)
+ ✓ Compiled in 241ms (350 modules)
+ ✓ Compiled in 221ms (350 modules)
+ ✓ Compiled in 226ms (350 modules)
+ ✓ Compiled in 260ms (350 modules)
+ ✓ Compiled in 245ms (350 modules)
+ ✓ Compiled in 230ms (350 modules)
+ ✓ Compiled in 212ms (350 modules)
+ ✓ Compiled in 211ms (350 modules)
+ ✓ Compiled in 229ms (350 modules)
+ ✓ Compiled in 217ms (350 modules)
+ ✓ Compiled in 232ms (350 modules)
+ ✓ Compiled in 210ms (350 modules)
+ ✓ Compiled in 210ms (350 modules)
+ ✓ Compiled in 224ms (350 modules)
+ ✓ Compiled in 238ms (350 modules)
+ ✓ Compiled in 248ms (350 modules)
+ ✓ Compiled in 268ms (350 modules)
